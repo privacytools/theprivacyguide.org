@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{ENV:HTTPS} !^.*on
+RewriteRule ^(.*)$ https://theprivacyguide.org/$1 [R,L]
+
+Redirect 302 /index.html /tutorials.html

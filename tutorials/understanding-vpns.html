@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- This file is based on a template created by Blackrock Digital LLC, licensed under the MIT license. More info: theprivacyguide.org/transparency.html -->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Understanding VPNs | The Privacy Guide </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='/fonts/lora.css' rel='stylesheet' type='text/css'>
+    <link href='/fonts/opensans.css' rel='stylesheet' type='text/css'>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="../index.html">The Privacy Guide</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../index.html">The Privacy Guide</a>
+                    </li>
+                    <li>
+                        <a href="../tutorials.html">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="../contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="../donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-color: black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Understanding VPNs</h1>
+                        <h2 class="subheading">How VPNs can provide security, privacy and Netflix to your Internet connection</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2 class="section-heading">What is a VPN?</h2>
+                    <p>Before we explain what <a href="glossary.html#vpn">VPNs</a> are, let's talk about Internet without them.</p>
+
+                    <p>Your <a href="glossary.html#isp">ISP</a> (Internet Service Provider) can see everything you do online. Well, nearly &mdash; when websites use <strong>HTTPS/SSL/TLS</strong> (these terms are used interchangably when talking about websites, they all mean "website encryption"), indicated by that green padlock, your ISP cannot see <em>exactly</em> what you're doing on the website, but can still see what websites you're browsing.</p>
+
+                    <p>That sounds bad, right? But that's not even the worst part. (<em>WHAT??!!</em> &mdash; I know, right?) Not only can your ISP see what you're doing online, they can (and do) insert ads into websites, sell your browsing history (which is now legal in the US), restrict access to some websites and other awful stuff &mdash; because <strong>they have complete control over your Internet connection</strong>.</p>
+
+                    <p>Fortunately, more and more websites are starting to use HTTPS, but many still don't, and even HTTPS doesn't solve the problem that your ISP can see what websites you're browsing.</p>
+
+                    <h2 class="section-heading">How VPNs can protect us</h2>
+
+                    <p>Luckily, there are VPNs. VPN stands for Virtual Private Network. It secures your Internet connection. How does it work? Instead of letting your ISP see everything you do online, VPNs only let them see that you're connected &mdash; <strong>using an encrypted connection</strong> &mdash; to their servers.
+
+                    <p><mark>Basically, instead of connecting directly to the Internet, you connect to one of your VPN providers' servers which connects you to the Internet.</mark></p>
+
+                    <p>So <code>you &lt;---&gt; Internet</code> becomes <code>you &lt;---&gt; VPN &lt;---&gt; Internet</code> and your ISP can only see the <code>you &lt;---&gt; VPN</code> part.</p>
+
+                    <h2 class="section-heading">More ways VPNs can protect us</h2>
+                    <p>So VPNs are practically awesome, but that's not all, not by far.</p>
+
+                    <p>Did you know that <a href="wifi-security.html">if you're on an insecure Wi-Fi network</a>, <strong>anyone connected to the same network can see as much as your ISP can?</strong></p>
+
+                    <p>Obviously, this isn't an issue at home, unless you have very creepy neighbours and <a href="wifi-security.html">not-a-very-secure Wi-Fi network</a>. However, it is a problem in public places with Wi-Fi, such as cafés.</p>
+
+                    <p>Since your connection to the VPN is <strong>secure</strong> and <strong>it's the only active connection</strong> on your device, that creepy guy with the laptop sitting in the corner is no longer a threat to your Internet connection.</p>
+
+                    <p>So, is that all? Not yet. There's still one big advantage. Websites that you're connected to can see this (usually) near-unique identifier, called an <strong>IP address</strong>. But when you use a VPN, the websites don't see your IP address; they see one of the VPN's server's IP address.
+
+                    <p>This also provides an added side-benefit.  Most VPN providers have servers in many countries &mdash; thus you can make it seem like you're from a completely different country (which, apart from privacy, is useful due to some content and services being available only to specific regions &mdash; like Netflix and Hulu).</p>
+
+                    <p>But even if you use a different IP address than your "normal" one, isn't it still personally identifiable? Nope. Many people use the same server, letting the websites you visit see only that you're using the same VPN as many other people.</p>
+
+                    <p>So, now that we understand what a VPN is, how do we choose one? Read our next tutorial, <a href="choosing-a-vpn.html">Choosing a VPN</a>.</p>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/theprivacyguide">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../donate.html">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted"><a href="resources.html">Copyright</a> &copy; The Privacy Guide 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
