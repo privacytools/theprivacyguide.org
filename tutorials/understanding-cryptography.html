@@ -106,46 +106,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">What is cryptography?</h2>
-                    <p>According to Wikipedia, 
-                    <blockquote>Cryptography [...] is the practice and study of techniques for secure communication in the presence of third parties called adversaries.</blockquote>
-                    </p>
-                    <p>What that means for us is <mark>securing communication (and data) using encryption.</mark></p>
-
-                    <h2 class="section-heading">Encryption</h2>
-                    <p>Although today's encryption is extremely complex, utilizing very advanced mathematics, we're lucky as are tools that are relatively easy to use without ANY knowledge of cryptography.</p>
-
-                    <p>Example: HTTPS (or SSL or TLS) &mdash; like we learned in the <a href="understanding-vpns.html">Understanding VPNs</a> tutorial &mdash; secures your connection to websites (ones that use it) in a way that makes your activities unreadable to third parties (<a href="glossary.html#adversary">adversaries</a>). It doesn't require users to do anything whatsoever, yet it protects sensitive data (such as financial information) of millions, if not billions, of users worldwide.</p>  
-
-                    <p>Even though we might not realize it, we use encryption every day &mdash; and it's a crucial part of many systems.</p>
-
-                    <p>So we know that encryption is basically everywhere around us, being used by providers, for example.</p>
-
-                    <p>But how can <em>we</em> start using encryption (or cryptography, they're synonyms in this context) in order to secure our data? One of the most important ways we can start using encryption is by encrypting our data and communication. There will be big tutorials on these topics later.</p>
-
-                    <h2 class="section-heading">Terminology</h2>
-                    <p>However, in order to understand those tutorials, you need to understand some concepts.</p>
-
-                    <h3>Basic terminology</h3>
-                    <ul>
-                        <li><strong>Plaintext</strong> = data before encryption</li>
-                        <li><strong>Ciphertext</strong> = data after encryption</li>
-                        <li><strong>Encryption key</strong> = data used to convert that specific plaintext to that specific ciphertext. Think of this as the password.
-                    </ul>
-
-                    <h3>Symmetric-key encryption</h3>
-                    <p>The same key is used for encryption and decryption &mdash; as you'd expect encryption to work.</p>
-
-                    <h3>Assymetric-key (Public-key) encryption</h3>
-                    <p>Now, this is where it gets interesting. Public key cryptography utilizes <strong>two</strong> keys. One for encryption and one for decryption.</p>
-
-                    <ul>
-                        <li><strong>Public key</strong> = the key used for encryption. Why is it called public? Simple. You can share it publicly without exposing yourself to any risk. People will use this to encrypt, say, the emails they want to send you.</li>
-                        <li><strong>Private key</strong> = the key used for decryption. You guessed it &mdash; it's called private, because only you should posses it. You'll use this to decrypt the messages that are encrypted with your public key.</li>
-                    </ul>
-
-                    <p>Let's say we have a plaintext: <code>ABC</code>. We encrypt it using an encryption key called <strong>public key</strong>: <code>DEF</code>. We get a ciphertext: <code>AZPH</code>. If we try to decrypt it with the public key, we get <code>KXE</code> &mdash; just a bunch of random letters. But we also know the <strong>private key</strong> &mdash; the key used for decryption: <code>XYZ</code>. If we decrypt <code>AZPH</code> with <code>XYZ</code>, we get <code>ABC</code>. Neat, isn't it?</p>
-
+---MARKDOWN GOES HERE---
                 </div>
             </div>
         </div>

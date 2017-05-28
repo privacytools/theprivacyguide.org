@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./compile_tutorial ../tutorials/understanding-vpns
+./compile_tutorial ../tutorials/choosing-a-vpn
+./compile_tutorial ../tutorials/understanding-cryptography
