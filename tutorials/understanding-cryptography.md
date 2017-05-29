@@ -26,6 +26,7 @@ However, in order to understand those tutorials, you need to understand some con
 - **Plaintext** = data before encryption
 - **Ciphertext** = data after encryption
 - **Encryption key** = data used to convert that specific plaintext to that specific ciphertext. Think of this as the password.
+- **Decryption key** = data used to convert that specific ciphertext back into the original plaintext. The decryption key may be the same as the encryption key (symmetric-key encryption) or different (assymetric-key encryption).
 
 ### Symmetric-key encryption
 
@@ -38,4 +39,4 @@ Now, this is where it gets interesting. Public key cryptography utilizes **two**
 - **Public key** = the key used for encryption. Why is it called public? Simple. You can share it publicly without exposing yourself to any risk. People will use this to encrypt, say, the emails they want to send you.
 - **Private key** = the key used for decryption. You guessed it -- it's called private, because only you should posses it. You'll use this to decrypt the messages that are encrypted with your public key.
 
-Let's say we have a plaintext: `ABC`. We encrypt it using an encryption key called public key: `DEF`. We get a ciphertext: `AZPH`. If we try to decrypt it with the **public key**, we get `KXE` -- just a bunch of random letters. But we also know the **private key** -- the key used for decryption: ``XYZ``. If we decrypt ``AZPH`` with ``XYZ``, we get ``ABC``. Neat, isn't it?
+Let's say we have a plaintext: `HELLO THERE!`. We encrypt it using an encryption key called **public key**: `PUBKEY`. We get a ciphertext: `AZPHXYRHV`. If we try to decrypt it with the **public key**, we get `KXELCVQNU` -- just a bunch of random letters. But we also know the **private key** -- the key used for decryption: ``PRIVKEY``. If we decrypt ``AZPHXYRHV`` with ``PRIVKEY``, we get ``HELLO THERE!``. Neat, isn't it?
