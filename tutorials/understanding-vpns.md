@@ -14,7 +14,7 @@ Luckily, there are VPNs. VPN stands for Virtual Private Network. It secures your
 
 <mark>Basically, instead of connecting directly to the Internet, you connect to one of your VPN providers' servers which connects you to the Internet.</mark>
 
-So `you &lt;---&gt; Internet` becomes `you &lt;---&gt; VPN &lt;---&gt; Internet` and your ISP can only see the `you &lt;---&gt; VPN` part.
+So `you <----> Internet` becomes `you <----> VPN <----> Internet` and your ISP can only see the `you <----> VPN` part.
 
 ## More ways VPNs can protect us
 
