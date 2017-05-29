@@ -26,13 +26,13 @@ However, in order to understand those tutorials, you need to understand some con
 - **Plaintext** = data before encryption
 - **Ciphertext** = data after encryption
 - **Encryption key** = data used to convert that specific plaintext to that specific ciphertext. Think of this as the password.
-- **Decryption key** = data used to convert that specific ciphertext back into the original plaintext. The decryption key may be the same as the encryption key (symmetric-key encryption) or different (assymetric-key encryption).
+- **Decryption key** = data used to convert that specific ciphertext back into the original plaintext. The decryption key may be the same as the encryption key (symmetric-key encryption) or different (asymmetric-key encryption).
 
 ### Symmetric-key encryption
 
 The same key is used for encryption and decryption -- as you'd expect encryption to work.
 
-### Assymetric-key (Public-key) encryption
+### Asymmetric-key (Public-key) encryption
 
 Now, this is where it gets interesting. Public key cryptography utilizes **two** keys. One for encryption and one for decryption.
 
