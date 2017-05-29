@@ -26,7 +26,6 @@ However, in order to understand those tutorials, you need to understand some con
 - **Plaintext** = data before encryption
 - **Ciphertext** = data after encryption
 - **Encryption key** = data used to convert that specific plaintext to that specific ciphertext. Think of this as the password.
-- **Decryption key** = data used to convert that specific ciphertext back into the original plaintext. The decryption key may be the same as the encryption key (symmetric-key encryption) or different (asymmetric-key encryption).
 
 ### Symmetric-key encryption
 
