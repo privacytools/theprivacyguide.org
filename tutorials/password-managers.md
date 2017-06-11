@@ -20,10 +20,13 @@ Oh well, maybe you do have a really good password that meets all the criteria an
 That where password managers come into play: they can remember your passwords for you. Even more, since you don't have to remember your passwords anymore there is no need to make them memmorable. Now we can also make them longer. And let's be honest, don't even try to make up the passwords yourself, let the password manager do it (it is much better than any human at generating random passwords).
 
 ## How do password managers work?
+Password managers simply store your username and password in a database, together with the corresponding website. They use strong encryption to keep this database safe, and you can only access to it with a master password. Most likely you will have to remember (only!) this one.
+
+Usually they feature a random password generator to make strong passwords at will, and probably autotype functionality so you don't have to keep looking for the password (cool huh!).
 
 ## Online or local?
 This is a hot topic, and the answer will change a lot depending on your paranoia... I mean, threat model and level of trust on third parties.
 
 A local password manager is fully under your control, but you will need to copy the password database yourself in any other system you want to use, besides installing the password manager.
 
-An online password manager stores the password database in the cloud so you have access to it anywhere you go.
+An online password manager stores the password database in the cloud so you have access to it anywhere you go. While this is very convenient, you are probably trusting a third party to keep your passwords safe.
