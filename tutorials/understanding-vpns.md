@@ -2,7 +2,7 @@
 
 Before we explain what [VPNs](glossary.html#vpn) are, let's talk about Internet without them.
 
-Your [ISP](glossary.html#isp) (Internet Service Provider) can see everything you do online. Well, nearly -- when websites use **HTTPS/SSL/TLS** (these terms are used interchangeably when talking about websites, they all mean "website encryption"), indicated by that green padlock, your ISP cannot see *exactly* what you're doing on the websites, but can still see what websites you're browsing, and they store that information. Now think about how much you love your internet provider, how much you trust them... This guys know, and own, your whole browsing history! They know **everything** you do online!
+Your [ISP](glossary.html#isp) (Internet Service Provider) can see everything you do online. Well, nearly -- when websites use **HTTPS/SSL/TLS** (these terms are used interchangeably when talking about websites, they all mean "website encryption"), indicated by that green padlock, your ISP cannot see *exactly* what you're doing on the websites, but can still see what websites you're browsing, and they store that information. Now think about how much you love your internet provider, how much you trust them... These guys know, and own, your whole browsing history! They know **everything** you do online!
 
 That sounds bad, right? But that's not even the worst part. (*WHAT??!!* -- I know, right?) Not only can your ISP see what you're doing online, they can (and do) insert ads into websites, sell your browsing history (which is now legal in the US), restrict access to some websites and other awful stuff -- because **they have complete control over your Internet connection**.
 
