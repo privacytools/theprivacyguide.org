@@ -21,29 +21,7 @@ But doesn't that create a single point of failure -- how is that different from 
 
 ## Creating a strong master password
 
-This is the only password you need to remember, so try to make it as strong as possible.
-
-Despite popular belief, hard-to-crack passwords don't necessarily have to be hard to remember.
-
-Frankly, how harder (if at all) is remembering `Roses 51# Are 52$ Red 53% Violets 54^ Are 55& Blue` (without spaces; they were added for readability) instead of `7a5173bh` (simple password many would consider secure)?
-
-Not much, might even be easier for some people. And that's a commonly recommended way to create passwords.
-
-1. Take a sequence of words you will remember. Might be a poem, might as well be just random words.
-2. Put consequent numbers between them. Ideally not 1234..., but take some random number you'll remember (might be your favourite number, or even birthdate) and then just keep incrementing it.
-3. Add special characters
-4. (Optional) Add non-English characters if the password manager allows them.
-
-[![Comic about password strength](https://imgs.xkcd.com/comics/password_strength.png)](https://www.xkcd.com/936/)
-
-Note: Although the comic isn't wrong, the numbers and special characters make the password stronger by A LOT.
-
-To give you an idea of how secure mere words are, consider this: 
-
-1. four-character password consisting of letters and numbers (we refer to these as alphanumberic passwords) can be cracked pretty easily, since there are only `(26+10)^4` combinations (`1679616` -- might seem like a lot, but at 1000 tries per second, which is far less than what computers are nowadays capable of, going through all combinations will only take slightly less than 28 minutes)
-2. password consisting of four of the 1000 most common words has `1000^4 = 1000000000000` combinations, over 595374 times more combinations than the four-character password.
-
-The reason why using a mere word isn't much more secure than using a single letter is that random-looking passwords are cracked using **brute force attacks** -- checking every single option for every single character -- while common passwords, like one-word passwords are cracked using **dictionary attacks** -- going through the list of most common passwords. 
+todo
 
 ## Choosing the right password manager
 
