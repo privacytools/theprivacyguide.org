@@ -4,3 +4,4 @@
 ./compile_tutorial ../tutorials/choosing-a-vpn
 ./compile_tutorial ../tutorials/understanding-cryptography
 ./compile_tutorial ../tutorials/password-managers
+./compile_tutorial ../tutorials/threat-models
