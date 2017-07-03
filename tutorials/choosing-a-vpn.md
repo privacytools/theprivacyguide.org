@@ -22,7 +22,7 @@ You want to watch BBC online, possibly avoid creeps at cafés, but don't really 
 
 You really care about privacy, don't want your traffic logged at all. You don't want to be concerned about your online activities being linked to you.
 
-**Therefore**: You want a VPN with a lot of servers, especially in countries like US and UK, but one that's not based in [Five/Nine/Fourteen Eyes countries](https://privacytools.io#ukusa) (Five Eyes is the worst, Nine Eyes is bad and Fourteen Eyes isn't *that* bad).
+**Therefore**: You want a VPN that's not based in [Five/Nine/Fourteen Eyes countries](https://privacytools.io#ukusa) (Five Eyes -- especially US and UK -- are the worst, Nine Eyes are bad and Fourteen Eyes aren't *that* bad). Possibly with a lot of servers, if that's what you're looking for.
 Also, it must not keep any sort of logs, should provide excellent traffic encryption and accept anonymous (or pseudonymous) payment methods -- if that's also something you're looking for. The VPN provider should support OpenVPN (we'll explain what that is later) and not require any personal information to register.
 
 Another thing to look for is the VPN's **political attitudes**. Example: [Proxy.sh](https://proxy.sh)'s [Ethical policy](https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5); [AirVPN defending their opinions on their forum](https://airvpn.org/topic/19586-a-review-on-another-site/)
