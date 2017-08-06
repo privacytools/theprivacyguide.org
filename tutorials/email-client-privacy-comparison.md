@@ -2,7 +2,7 @@ Email clients can reveal a lot of information about the user, so I decided to te
 
 For testing, I used [Email Privacy Tester](https://www.emailprivacytester.com/) -- a service that lets you test your email client's privacy in great detail.
 
-Each entry in the table can be thought of as a "leak". A leak of data about the user. Some are more severe than the others, but generally, <mark>the less leaks, the better.</mark>
+Each entry in the table can be thought of as a "leak". A leak of data about the user. You don't have to be concerned about most of the stuff in the "On enable remote content" column, though, as it's not *automatically* loaded. For some entries perhaps even the opposite, since it's basically functionality. As for the automatically loaded resources -- the leaks, listed in the *On receive* and *On open* columns -- some are more severe than others, but generally, <mark>the less leaks, the better.</mark>
 
 \* *CounterMail* and *CryptoHeaven* were obviously removed -- shortly after I noticed the issues with those services while writing this article, that is.
 
