@@ -5,3 +5,4 @@
 ./compile_tutorial ../tutorials/understanding-cryptography
 ./compile_tutorial ../tutorials/password-managers
 ./compile_tutorial ../tutorials/threat-models
+./compile_tutorial ../tutorials/email-client-privacy-comparison

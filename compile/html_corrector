@@ -4,16 +4,17 @@ from sys import argv
 from bs4 import BeautifulSoup
 
 with open(argv[1], 'r') as i:
-	data = i.read()
-	data = data.replace("--", u"\u2014")
-	data = data.replace("<h2>", "<h2 class=\"section-heading\">")
-	
-	soup = BeautifulSoup(data, "html.parser")
+    data = i.read()
+    data = data.replace("--", u"\u2014")
+    data = data.replace("<h2>", "<h2 class=\"section-heading\">")
+    data = data.replace("<table>", "<table class=\"table table-striped table-bordered\">")
 
-	blockquotes = soup.findAll("blockquote")
-	new_blockquotes = []
-	for blockquote in blockquotes:
-		if blockquote.find("p"):
-			blockquote.p.replaceWithChildren()
+    soup = BeautifulSoup(data, "html.parser")
 
-	print(str(soup))
+    blockquotes = soup.findAll("blockquote")
+    new_blockquotes = []
+    for blockquote in blockquotes:
+        if blockquote.find("p"):
+            blockquote.p.replaceWithChildren()
+
+    print(str(soup))
