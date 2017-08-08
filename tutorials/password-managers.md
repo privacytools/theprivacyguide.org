@@ -5,7 +5,6 @@ Most people use weak passwords, even though they might not realise it. The solut
 Unfortunately, no. <mark>Password strength isn't the biggest issue. Reusing passwords is.</mark> Odds are you reuse passwords too.
 
 <p align="center"><img alt="People reuse passwords" src="/img/reuse.png"></p>
-<span class="caption text-muted">Source: [xkcd](https://xkcd.com/792/) License: [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)</span>
 
 Your password can be a million characters long, contain all that's mentioned above plus all Greek, Cyrrilic, Chinese and Arabic letters, but still be rendered useless if you use it on more than one website. Many websites don't store passwords securely -- and get hacked. This way, your password can be obtained and whether your password is `123456` or `BbPzgEDpa8bXN8Ftq9MVwWqdSAA3Xn 3595azebav5ZBmEjFzvZjXc6rup2c3 3xbdeDqpNXvf6SaGaHuFTgFufDa3Uj 2N7v2d2e` (without spaces) doesn't matter.
 
@@ -40,3 +39,7 @@ Here's a list of popular password managers for each kind:
 - Online: [1Password](https://1password.com/), [LastPass](https://www.lastpass.com/)
 - Local: [KeePassX](https://www.keepassx.org/)
 - [Master Password](http://masterpasswordapp.com/) -- the password generation algorithm, has many implementations
+
+---
+
+Image source: [xkcd](https://xkcd.com) License: [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
