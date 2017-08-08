@@ -8,13 +8,13 @@ If you wanted to use the **most** secure tools available, you'd have to sacrific
 
 So, what are these threat models?
 
-<mark>A threat model is a model of the most probable threats.</mark> It narrows down your thinking about the protection you need. Since it's impossible to protect yourself against every attack(er), you should focus on the **most probable threats**.
+<mark>A threat model is a model of the most probable threats to your security/privacy endeavors.</mark> It narrows down your thinking about the protection you need. Since it's impossible to protect yourself against every attack(er), you should focus on the **most probable threats**.
 
 ## Examples of threat models
 
-An investigative journalist's threat model might be a government.
+An investigative journalist's threat model might be (protecting against) a government.
 
-A company's manager's threat model might be a hacker hired by competition to do corporate espionage.
+A company's manager's threat model might be (protecting against) a hacker hired by competition to do corporate espionage.
 
 ## Creating your threat model
 

@@ -21,7 +21,7 @@ But doesn't that create a single point of failure -- how is that different from 
 
 ## Creating a strong master password
 
-todo
+See our other tutorial for [creating strong passwords](creating-strong-passwords.html).
 
 ## Choosing the right password manager
 
