@@ -31,7 +31,7 @@ The huge advantage of online password managers is that you don't have to store (
 
 Local password managers offer higher security than online password managers, but are far less practical. You need to backup it regularly (every day, or when you add a new password) in order to not lose all your passwords. And because you want to use open-source software, you (can) know exactly what's happening behind the scenes (in practice, you check if it's been audited or just hope it's been peer-reviewed).
 
-However, there's a password manager which doesn't fit into either category. Neither online nor local. It's actually more of an algorithm. It uses your full name and master passwords as a source of randomness (also known as entropy in this context) and generates passwords based on the service name, domain, or whatever you decide to use (for Twitter you might use `twitter` but also `twitter.com`). The downside to this is not having a list of all your accounts.
+However, there's a password manager which doesn't fit into either category. Neither online nor local. It's actually more of an algorithm. It uses your full name and master passwords as a source of randomness (also known as entropy in this context) and generates passwords based on the service name, domain, or whatever you decide to use (for Twitter you might use `twitter` but also `twitter.com`). The downside to this is not having a list of all your accounts, which might actually be a good thing -- it removes the single point of failure thing to some extent.
 
 Now you can decide. It's up to you. Do you need a list of accounts? Do you need maximum security, or prefer usability?
 
