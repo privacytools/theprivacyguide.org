@@ -8,7 +8,7 @@ PGP is the program that was initially released in 1991 by Phil Zimmermann.
 
 OpenPGP is the standard (anyone can create their own encryption program that follows this standard).
 
-There are many programs following the standard, most commonly used one being GPG (GNU Privacy Guard).
+There are many programs following the standard, most commonly used one being GPG (GNU Privacy Guard; [tutorial](gpg.html)).
 
 Note: PGP usually refers to the standard -- OpenPGP, not the program.
 

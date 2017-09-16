@@ -6,5 +6,6 @@
 ./compile_tutorial ../tutorials/creating-strong-passwords
 ./compile_tutorial ../tutorials/password-managers
 ./compile_tutorial ../tutorials/pgp
+./compile_tutorial ../tutorials/gpg
 ./compile_tutorial ../tutorials/threat-models
 ./compile_tutorial ../tutorials/email-client-privacy-comparison
