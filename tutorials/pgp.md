@@ -2,6 +2,8 @@
 
 PGP stands for Pretty Good Privacy. It's an encryption program that's mainly used for email encryption, but it can be used for encrypting any sort of data.
 
+Before you read this tutorial, please note one thing: <mark>PGP provides privacy, not anonymity. It will not hide your name --- quite the opposite: it will attach your name and email to any message you sign, and your recipient's name and email to any message you encrypt.</mark>
+
 ### Terminology
 
 PGP is the program that was initially released in 1991 by Phil Zimmermann.
@@ -52,6 +54,10 @@ Same as the previous example, but before encrypting the message with Bob's publi
 
 How does it work? After Bob decrypts Alice's email with his private key, he gets the **message *encrypted* with Alice's *private* key**. In public key cryptography, the public and private keys are a *pair of keys* -- a **keypair**. What's encrypted with the public key can be decrypted with the private key, and what's encrypted with the private key can be decrypted with the public key. <mark>Decrypting a signed message with the sender's public key decrypts the message to its unsigned (plaintext) version.</mark>
 
+#### <mark>A keypair consists of two keys: the public key and the private key. *Each key can decrypt a message encrypted with the other key.*</mark>
+
+#### <mark>Just like a message encrypted with one's private key can be decrypted with his public key, a message encrypted with one's public key can be decrypted with his private key.</mark>
+
 ![Initial contact over PGP (signed)](img/initial_contact_over_pgp_signed.png)
 
 <span class="caption">**Figure 2** -- a diagram showing initial contact over PGP (signed)</span>
@@ -83,9 +89,19 @@ A private key would have `PGP PRIVATE KEY BLOCK` instead of that. An encrypted f
 
 Note that this near-human-readable output is present when using the *ASCII* mode (*ASCII* means *American Standard Code for Information Interchange*, which basically means that it will only contain letters you'd find on an American keyboard). The non-ASCII mode would be just a bunch of random-looking bytes, so most of it couldn't be even displayed.
 
-#### Revocation certificates
+### Revocation certificates
 
 Once you generate your keypair, you should generate a revocation certificate as well. In case your private key gets leaked you just upload the revocation certificate to a keyserver and it will show that the key has been revoked next to the key info.
+
+#### <mark>Generating a revocation certificate is *highly* recommended! Will take nearly no time and effort, but can be critically important in future. <u>It's a lifesaver.</u></mark>
+
+### Expiration date
+
+Expiration date is another fundamental concept. As you probably guessed, it specifies on what date should the key be marked as expired.
+
+Why is it important? If someone obtains your private key as well as the password to it, they can read any data encrypted with it (and encrypt and sign data as well!). Generating a new key ensures anyone with your old key won't be able to read your communications anymore. Also, let me reiterate: if your key gets stolen **and you know about it, *revoke it!***
+
+Note that this depends very much on your threat model. I, for example, use one with *no expiration* for `admin@theprivacyguide.org`. If you're considering leaking thousands of documents from a government agency, you might want to use something more like *a month*. Know that using very-short-term keys for a "Contact Me!" will just get people annoyed. When they want to contact you *again*, that is, as they won't care about the expiration of a key they used to send a single email.
 
 ### Keyservers
 

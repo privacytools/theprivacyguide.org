@@ -182,6 +182,23 @@ Comment: A revocation certificate should follow
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
 
+### Importing a key
+
+To import a public key or a private key, use the `--import` switch.
+
+`$ gpg --import key.pgp` or
+`$ echo THE_KEY_IN_ASCII | gpg --import key.pgp`
+
+### Exporting a key
+
+To export a public key, use the `--export` switch.
+
+`$ gpg --export KEY_ID`
+
+To export a private key, use the `--export-secret-keys` switch.
+
+`$ gpg --export-secret-keys KEY_ID`
+
 ### ASCII mode
 
 Since PGP can operate both in ASCII mode and "raw" mode, it's important to understand when to use which one.
