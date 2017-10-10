@@ -54,9 +54,9 @@ Same as the previous example, but before encrypting the message with Bob's publi
 
 How does it work? After Bob decrypts Alice's email with his private key, he gets the **message *encrypted* with Alice's *private* key**. In public key cryptography, the public and private keys are a *pair of keys* -- a **keypair**. What's encrypted with the public key can be decrypted with the private key, and what's encrypted with the private key can be decrypted with the public key. <mark>Decrypting a signed message with the sender's public key decrypts the message to its unsigned (plaintext) version.</mark>
 
-#### <mark>A keypair consists of two keys: the public key and the private key. *Each key can decrypt a message encrypted with the other key.*</mark>
+**<mark>A keypair consists of two keys: the public key and the private key. *Each key can decrypt a message encrypted with the other key.*</mark>**
 
-#### <mark>Just like a message encrypted with one's private key can be decrypted with his public key, a message encrypted with one's public key can be decrypted with his private key.</mark>
+**<mark>Just like a message encrypted with one's private key can be decrypted with his public key, a message encrypted with one's public key can be decrypted with his private key.</mark>**
 
 ![Initial contact over PGP (signed)](img/initial_contact_over_pgp_signed.png)
 
@@ -93,7 +93,7 @@ Note that this near-human-readable output is present when using the *ASCII* mode
 
 Once you generate your keypair, you should generate a revocation certificate as well. In case your private key gets leaked you just upload the revocation certificate to a keyserver and it will show that the key has been revoked next to the key info.
 
-#### <mark>Generating a revocation certificate is *highly* recommended! Will take nearly no time and effort, but can be critically important in future. <u>It's a lifesaver.</u></mark>
+**<mark>Generating a revocation certificate is *highly* recommended! Will take nearly no time and effort, but can be critically important in future. <u>It's a lifesaver.</u></mark>**
 
 ### Expiration date
 
