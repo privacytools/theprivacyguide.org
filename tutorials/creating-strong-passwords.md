@@ -14,7 +14,7 @@ Note that the strength of your password doesn't matter if you use it on all webs
 
 ## Diceware
 
-Roll five dice all at once, write down the numbers (`35162`), look up the corresponding word (`35162	john`) in [EFF](https://eff.org)'s long [diceware list](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt), write it down, repeat until you have at least six words. Then just come up with a mnemonic to remember it -- might be something like a one-sentence story.
+Roll five dice all at once, write down the numbers (`35162`), look up the corresponding word (`35162	john`) in [EFF](https://eff.org)'s long [diceware list](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt), write it down, repeat until you have at least six words. Then just come up with a mnemonic to remember it --- might be something like a one-sentence story.
 
 
 [![Comic about password strength](https://imgs.xkcd.com/comics/password_strength.png)](https://www.xkcd.com/936/)
@@ -23,10 +23,10 @@ Note: Although the comic isn't wrong, using *common* words isn't good *enough*.
 
 To give you an idea of how secure mere words are, consider this: 
 
-1. four-character password consisting of letters and numbers (we refer to these as alphanumberic passwords) can be cracked pretty easily, since there are only `(26+10)^4` combinations (`1679616` -- might seem like a lot, but at 1000 tries per second, which is far less than what computers are nowadays capable of, going through all combinations will only take slightly less than 28 minutes)
+1. four-character password consisting of letters and numbers (we refer to these as alphanumberic passwords) can be cracked pretty easily, since there are only `(26+10)^4` combinations (`1679616` --- might seem like a lot, but at 1000 tries per second, which is far less than what computers are nowadays capable of, going through all combinations will only take slightly less than 28 minutes)
 2. password consisting of four of the 1000 most common words has `1000^4 = 1000000000000` combinations, over 595374 times more combinations than the four-character password.
 
-The reason why using a mere word isn't much more secure than using a single letter is that random-looking passwords are cracked using **brute force attacks** -- checking every single option for every single character -- while common passwords, like one-word passwords are cracked using **dictionary attacks** -- going through the list of most common passwords.
+The reason why using a mere word isn't much more secure than using a single letter is that random-looking passwords are cracked using **brute force attacks** --- checking every single option for every single character --- while common passwords, like one-word passwords are cracked using **dictionary attacks** --- going through the list of most common passwords.
 
 ## Enhanced Diceware
 
@@ -41,7 +41,7 @@ If you aren't concerned about anyone targetting you *in specific*, you can use t
 
 The Schneier's method is what you should use if there's a reason why you might be specifically targeted by a sophisticated attacker, or just want to go the extra mile for better security.
 
-> My advice is to take a sentence and turn it into a password. Something like "This little piggy went to market" might become "tlpWENT2m". That nine-character password won't be in anyone's dictionary. Of course, don't use this one, because I've written about it. Choose your own sentence -- something personal.
+> My advice is to take a sentence and turn it into a password. Something like "This little piggy went to market" might become "tlpWENT2m". That nine-character password won't be in anyone's dictionary. Of course, don't use this one, because I've written about it. Choose your own sentence --- something personal.
 >
 > Here are some examples:
 > 
