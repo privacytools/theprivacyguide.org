@@ -23,7 +23,7 @@ However, in order to understand those tutorials, you need to understand some con
 
 ### Basic terminology
 
-- **Plaintext** = data before encryption
+- **Plaintext** = data before encryption (also the term ["message"](glossary.html#message) may be used)
 - **Ciphertext** = data after encryption
 - **Key** = data used to convert that specific plaintext to that specific ciphertext. Think of this as the password.
 
