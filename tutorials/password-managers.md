@@ -37,7 +37,7 @@ Now you can decide. It's up to you. Do you need a list of accounts? Do you need 
 Here's a list of popular password managers for each kind:
 
 - Online: [1Password](https://1password.com/), [LastPass](https://www.lastpass.com/)
-- Local: [KeePassX](https://www.keepassx.org/)
+- Local: [KeePassXC](https://keepassxc.org/), [KeePass2](https://keepass.info/) (for Windows)
 - [Master Password](http://masterpasswordapp.com/) --- the password generation algorithm, has many implementations
 
 ---
